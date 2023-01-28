@@ -1,0 +1,349 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+table
+{
+    position: relative;
+    bottom: 20px;
+}
+
+.B 
+{   
+
+background: #000000;
+    text-align: center;
+
+}
+.B a 
+{
+    position: relative;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+}
+.B a:hover
+{
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+.B a::before
+{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background:#27282c;
+}
+.B a span
+{
+    position: relative;
+    z-index: 1;
+}
+.B a i 
+{
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+.B a i::before
+{
+    content: '';
+    position: absolute;
+    border: 2px solid  var(--clr);
+    top: -3.5px;
+    width: 10px;
+    left: 80%;
+    height: 1px;
+    transform: translateX(-50%);
+    background: #27282c;
+    transition: 0.5s;
+}
+.B a:hover i::before
+{
+    width: 20px;
+    left: 20%;
+}
+.B a i::after
+{
+    content: '';
+    position: absolute;
+    border: 2px solid  var(--clr);
+    bottom: -3.9px;
+    width: 10px;
+    left: 20%;
+    height: 1px;
+    background: #27282c;
+    transition: 0.5s;
+}
+.B a:hover i::after
+{
+    width: 20px;
+    left: 80%;
+}
+.F 
+{
+    height: 50px;
+    top: 200px;
+    text-align: center;
+}
+
+
+.O h2
+{
+    border: 2px solid black;
+    position: relative;
+    color: #000000;
+    font-style: italic;
+    font-size:xx-large;
+    top: -155px;
+    height: 50px;
+    background-color: #7286D3;
+   
+}
+h1
+{   
+    
+    top: 20px;
+    font-size: 50px;
+    text-align: center;
+    transition: .0s;
+}
+.B1 h3
+{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.B1 h3:hover
+{
+    
+    font-size: large;
+} 
+
+.B1 img 
+{
+    
+    position: relative;
+    left: 1170px;
+    height: 150px;
+    bottom: 180px;  
+    border: 2px salmon;
+    border-style:outset;
+}
+.B1 img:hover
+{
+  transform: rotate(20deg);
+}
+
+.Z h2
+{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    position: relative;
+    bottom: 140px;
+}
+/* Image 1 */
+.K
+{
+    background-image: url("Image/darkred.png");
+}
+.K img
+{
+   
+ width: 150px;
+ transition: .1s;
+}
+.K img:hover
+{
+    transition: .2s;
+    transform:rotate(280deg);
+}
+.K p 
+{
+    font-size:x-large;
+    position: relative;
+    text-align: center;
+    margin: 20px;
+    bottom: 15px;
+}
+.K h4 
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.K a h2
+{
+    left: 240px;
+    width: 95px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 5px;
+    bottom: 1px;
+    border: 2px solid rgb(255, 255, 255);
+    color:black;  
+}
+.K a h2:hover
+{
+    background-color:white;
+}
+/* Image 2*/
+.M 
+{
+    background-image: url(Image/darkred.png);
+}
+.M h4 
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 20px;
+}
+.M a 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 170px;
+    color:black;   
+}
+.M h4
+{
+    position: relative;
+    top: -20px;
+}
+.M p 
+{
+    font-size:x-large;
+    position: relative;
+    text-align: center;
+    margin: 20px;
+    bottom: 10px;
+}
+.M img
+{
+    position: relative;
+   top: -20px;
+ width: 150px;
+ transition: .1s;
+}
+.M img:hover
+{
+    transition: .2s;
+    transform:rotate(300deg);
+}
+.M a h2
+{
+    top: -170px;
+    position: relative;
+    left: 300px;
+    width: 100px;
+    border: 2px solid white;
+    background-color:#e61a39;
+}
+.M a h2:hover
+{
+    background-color: white;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+.nav-area
+{
+    height: 50px;
+    width: 963px;
+    margin: 0 auto;
+    background: deepskyblue;
+    position: relative;
+    bottom: 160px;
+} 
+.nav-area ul li
+{
+    float: left;
+    position: relative;
+}
+.nav-area ul li a 
+{
+    padding: 16px 65px;
+    display: block;
+    transition: .7s;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.nav-area > ul > li > a 
+{
+    border-right: 1px solid white;
+}
+.nav-area > ul > li li:last-child > a
+{
+    border-right: none;
+}
+.nav-area ul li:hover > a
+{
+    background: black;
+}
+.nav-area ul li a:after 
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0;
+    background: deepskyblue;
+    transition: .7s;
+}
+.nav-area ul li a:before 
+{
+    content: '';
+    position: absolute;
+    right: 0;
+   top: 0;
+    height: 4px;
+    width: 0;
+    background: deepskyblue;
+    transition: .7s;
+}
+.nav-area ul li a:hover:before, 
+.nav-area ul li a:hover:after 
+{
+    width: 100px;
+}
+.nav-area ul li ul
+{
+    position: absolute;
+    background: #333;
+    width: 208px;
+    transition: .7s;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: -25px;
+}
+.nav-area ul li:hover > ul
+{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+.nav-area ul li ul li{
+    width: 100%;
+}
+.nav-area ul li ul li a 
+{
+    font-size: 14px;
+    text-transform:capitalize;
+    padding: 15px;
+}
